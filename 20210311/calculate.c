@@ -40,14 +40,6 @@ int calculate(char* s) {
 }
 
 int main() {
-	/*
-    char S1[] = "1+1";
-	char S2[] = "2-1+2";
-	char S3[] = "(1+(4+5+2)-3)+(6+8)";
-	int a1 = calculate(S1);
-	int a2 = calculate(S2);
-	#endif 0*/
-	
 	char S3[] = "3+2*2";
 	int a3 = calculate(S3);
     system("pause");
