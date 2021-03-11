@@ -40,6 +40,7 @@ int calculate(char* s) {
 }
 
 int main() {
+    int a = 1;
 	char S3[] = "3+2*2";
 	int a3 = calculate(S3);
     system("pause");
