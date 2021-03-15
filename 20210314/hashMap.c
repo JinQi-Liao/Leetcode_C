@@ -18,8 +18,9 @@ void listPush(struct List* head, int key, int val) {
     head->next = tmp;
 }
 
+// 这里省略了it->next != NULL
 void listDelete(struct List* head, int key) {
-    for (struct List* it = head; it->next; it = it->next) {
+    for (struct List* it = head; it->next != NULL; it = it->next) {
         if (it->next->key == key) {
             struct List* tmp = it->next;
             it->next = tmp->next;
