@@ -8,7 +8,10 @@
 
 
 typedef enum {false, true} bool;
+
+
 struct NestedInteger {
+    int a;
 
 };
 
