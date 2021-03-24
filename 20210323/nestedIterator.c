@@ -18,6 +18,18 @@ struct NestedIterator {
     int cur;
 };
 
+bool NestedIntegerIsInteger(struct NestedInteger* nestedInteger) {
+
+}
+
+int NestedIntegerGetInteger(struct NestedInteger* nestedInteger) {
+
+}
+
+int NestedIntegerGetListSize(struct NestedInteger* nestedInteger) {
+
+}
+
 void dfs(struct NestedIterator *iter, struct NestedInteger** nestedList, int nestedListSize) {
     for (int i = 0; i < nestedListSize; i++) {
         if (NestedIntegerIsInteger(nestedList[i])) {
