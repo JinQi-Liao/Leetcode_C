@@ -16,4 +16,7 @@
 - 20210325 L82： 删除排序链表中的重复元素 II
 - 20210326 L83： 删除排序链表中的重复元素
 - 20210327 L61： 旋转链表
+
+## 第三周
+- 20210329 L190：颠倒二进制位
 [Liaojinqi的github](https://github.com/JinQi-Liao/Leetcode_C)
