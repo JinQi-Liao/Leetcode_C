@@ -74,7 +74,8 @@ bool find132pattern(int* nums, int numsSize) {
 }
 
 
-/*
+
+// 需要再重新修改
 bool find132pattern(int* nums, int numsSize) {
     if (numsSize < 3) {
         return false;
@@ -91,20 +92,20 @@ bool find132pattern(int* nums, int numsSize) {
     // 开始维护一个单调栈
     int* stack = (int* )malloc(sizeof(int) * n);
     int top = 0;
-    for (int j = n - 1; j > 0; j--) {
+    for (int j = n - 1; j >= 0; j--) {
         //确保了左边有比nums[j]小的数
         if (nums[j] > minNums[j]) {
             while (top && stack[top] < nums[j])
             {
                 top--;
-                stack[top] = nums[j]
             }
+            if ( top && stack[top] < nums)
             
         }
 
     }
 
-}*/
+}
 
 /*
 作者：LeetCode-Solution
